@@ -228,6 +228,7 @@ SteeringOutput Context::CalculateSteering(float deltaT, SteeringAgent* pAgent)
 		m_Directions[i] = RotatedVector;
 	}
 
+
 	Vector2 desired{};
 	
 	desired = steering.LinearVelocity.GetNormalized();
@@ -276,11 +277,6 @@ SteeringOutput Context::CalculateSteering(float deltaT, SteeringAgent* pAgent)
 
 	for (int i{}; i < m_ArraySize; i++)
 	{
-		//if (m_Dangers[i] > 0.f)
-		//{
-		//	m_Interests[i] = 0.f;
-		//}
-
 		m_Interests[i] -= m_Dangers[i];
 
 	}

@@ -22,12 +22,6 @@
     <ClCompile Include="projects\App_Steering\SteeringAgent.cpp" />
     <ClCompile Include="projects\App_Steering\SteeringBehaviors.cpp" />
     <ClCompile Include="projects\App_Steering\Behaviors\App_SteeringBehaviors.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\App_CombinedSteering.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\App_Flocking.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\CombinedSteeringBehaviors.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\FlockingSteeringBehaviors.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\TheFlock.cpp" />
-    <ClCompile Include="projects\App_Steering\CombinedBehaviors\SpacePartitioning\SpacePartitioning.cpp" />
     <ClCompile Include="projects\App_GraphTheory\App_GraphTheory.cpp" />
     <ClCompile Include="framework\EliteAI\EliteGraphs\EGraphNodeTypes.cpp" />
     <ClCompile Include="framework\EliteAI\EliteGraphs\EGraphConnectionTypes.cpp" />
@@ -101,12 +95,6 @@
     <ClInclude Include="projects\App_Steering\SteeringBehaviors.h" />
     <ClInclude Include="projects\App_Steering\SteeringHelpers.h" />
     <ClInclude Include="projects\App_Steering\Behaviors\App_SteeringBehaviors.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\TheFlock.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\App_CombinedSteering.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\App_Flocking.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\CombinedSteeringBehaviors.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\FlockingSteeringBehaviors.h" />
-    <ClInclude Include="projects\App_Steering\CombinedBehaviors\SpacePartitioning\SpacePartitioning.h" />
     <ClInclude Include="projects\App_GraphTheory\App_GraphTheory.h" />
     <ClInclude Include="framework\EliteAI\EliteGraphs\EGraph2D.h" />
     <ClInclude Include="framework\EliteAI\EliteGraphs\EIGraph.h" />

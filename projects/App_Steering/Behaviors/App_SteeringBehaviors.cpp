@@ -86,7 +86,7 @@ void App_SteeringBehaviors::Start()
 		SetAgentBehavior(m_AgentVec[i]);
 	}
 
-	m_Obstacles.push_back(new Obstacle({ 10.f, 0.f}, 5.f));
+	m_Obstacles.push_back(new Obstacle({ 15.f, 0.f}, 5.f));
 	m_Obstacles.push_back(new Obstacle({ 10.f, 12.5f}, 5.f));
 
 	m_IsInitialized = true;
@@ -204,7 +204,7 @@ void App_SteeringBehaviors::Update(float deltaTime)
 				ImGui::Text(" Behavior: ");
 				ImGui::SameLine();
 				ImGui::PushItemWidth(100);
-				if (ImGui::Combo("", &a.SelectedBehavior, "Seek\0Wander\0Flee\0Arrive\0Face\0Evade\0Pursuit\0Hide\0AvoidObstacle\0Align\0FacedArrive\0SlowClap", 4))
+				if (ImGui::Combo("", &a.SelectedBehavior, "Seek\0Wander\0Flee\0Arrive\0Face\0Evade\Context\0Hide\0AvoidObstacle\0Align\0FacedArrive\0SlowClap", 4))
 				{
 					behaviourModified = true;
 				}
